@@ -64,6 +64,7 @@ Complete the following tasks and submit your work as a single Google Doc documen
 - Reflect on the implications of database selection for genomic research and the importance of understanding data sources.
 
 **Note:** Ensure that all data is clearly labeled, and observations are well-documented to facilitate a comprehensive understanding of database navigation and genomic data comparison.
+
 ---
 
 ### Task 2: Running QUAST
@@ -104,6 +105,7 @@ Complete the following tasks and submit your work as a single Google Doc documen
 - Provide a reflective analysis of what the QUAST metrics reveal about the genomic data you're working with.
 
 **Note:** Ensure your report is well-organized, with each section clearly labeled and explained. Your reflections and interpretations should demonstrate a deep understanding of the role and importance of genome assembly quality assessment in bioinformatics.
+
 ---
 
 ### Task 3: Running RepeatMasking
@@ -140,7 +142,6 @@ Complete the following tasks and submit your work as a single Google Doc documen
 - Provide a reflective discussion on the types of repetitive elements found and the importance of repeat masking in genomic research.
 
 **Note:** Ensure that your report is clearly structured, with each section and step thoroughly documented. Your analysis should reflect a deep understanding of the role of repetitive DNA in genomes and the practical implications of repeat masking in bioinformatics workflows.
----
 
 ---
 
