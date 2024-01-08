@@ -108,7 +108,65 @@ Complete the following tasks and submit your work as a single Google Doc documen
 
 ---
 
-### Task 3: Running RepeatMasking
+### Task 3: Running BUSCO
+
+**Objective:** Assess the quality and completeness of genome assemblies or annotations using BUSCO to understand the presence and completeness of universal single-copy orthologs.
+
+#### Instructions:
+
+**Installation:**
+
+**Objective:** Install BUSCO using different methods to familiarize yourself with software installation and environment management in bioinformatics.
+
+- **Conda Installation:**
+  - Use the Conda package manager to install BUSCO on your local or server machine. Conda simplifies software installation and manages dependencies effectively.
+  - Provide a detailed summary of the installation process, including any conda commands used.
+
+- **Docker Installation:**
+  - Install BUSCO using Docker. Docker can encapsulate the software and its dependencies in a container, ensuring consistency across different environments.
+  - Document the steps taken to pull the BUSCO image, set up the container, and any additional configuration needed.
+
+- **Manual Installation:**
+  - Install BUSCO directly from its source code. This method allows more control over the installation process and is common when specific versions or customizations are needed.
+  - Document the steps to download the source code, compile the program, and any dependencies you needed to install manually.
+
+**Running BUSCO:**
+
+**Objective:** Execute BUSCO to analyze the quality of downloaded genomes or annotations and understand the implications of various parameters and options.
+
+- **Standard Analysis:**
+  - Run BUSCO on the downloaded genomes or annotations. Document the command used, including any parameters or options.
+
+- **Lineage-Specific Analysis:**
+  - Discuss the importance of selecting the appropriate lineage dataset for your organism. Explain how this choice impacts the analysis.
+
+- **Advanced Options:**
+  - Mention any advanced options or parameters that are particularly useful for your dataset. This might include parallel running options for large datasets or specific parameters for different types of analysis (genomes, proteins, metagenomes).
+
+**Interpreting Results:**
+
+**Objective:** Develop the ability to understand and interpret the output from BUSCO to assess genome assembly or annotation completeness.
+
+- **Summary of Key Metrics:**
+  - Provide a summary of the output, focusing on key metrics like Complete BUSCOs, Fragmented BUSCOs, and Missing BUSCOs. Describe what each metric means.
+
+- **Analysis:**
+  - Explain what these metrics indicate about the quality and completeness of each genome assembly or annotation. Discuss any potential concerns or noteworthy points revealed by the metrics.
+
+- **Contextualizing Results:**
+  - Reflect on how these completeness assessments might impact subsequent genomic analysis and research. Discuss the role of evolutionary expectations in assessing gene content.
+
+#### Deliverables:
+
+- **A comprehensive report detailing the installation process, the commands used to run BUSCO, and a thorough interpretation of the results.**
+  - Include screenshots or copies of your terminal session to document the processes and results.
+  - Provide a reflective analysis of what the BUSCO metrics reveal about the genomic data you're working with.
+
+**Note:** Ensure your report is well-organized, with each section clearly labeled and explained. Your reflections and interpretations should demonstrate a deep understanding of the role and importance of genome assembly or annotation completeness assessment in bioinformatics.
+
+--- 
+
+### Task 4: Running RepeatMasking
 **Objective:** Learn to identify and mask repetitive DNA sequences in genomic data to understand their impact on genomic analysis and interpretation.
 
 #### Instructions:
