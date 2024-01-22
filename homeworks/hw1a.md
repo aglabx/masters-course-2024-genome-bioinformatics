@@ -1,4 +1,4 @@
-### Genome Bioinformatics: Homework 1
+### Genome Bioinformatics: Homework 1a
 
 **Course Code:** [Insert Course Code]  
 
@@ -7,12 +7,10 @@
 **Submission Date:** [Insert Due Date]
 
 #### Objective:
-#### Objective:
 This assignment is designed to give you comprehensive, hands-on experience in genome bioinformatics, enhancing your understanding and analytical skills across several key areas. Through this series of tasks, you will:
 
 - Search for and download genomes from various databases, learning to navigate and extract relevant genomic data.
 - Assess the quality of genome assemblies using QUAST, gaining insights into the structural integrity and completeness of genomic data.
-- Identify and mask repetitive DNA sequences using RepeatMasker, understanding the significance and impact of repetitive elements on genomic analysis.
 - Perform de novo repeat family identification and annotation using RepeatModeler, exploring the unique repetitive landscape of your selected genomes.
 - Run RepeatMasker with a custom database generated from RepeatModeler, applying a tailored approach to repeat masking and appreciating the benefits of customized genomic analysis.
 
@@ -166,44 +164,7 @@ Complete the following tasks and submit your work as a single Google Doc documen
 
 --- 
 
-### Task 4: Running RepeatMasking
-**Objective:** Learn to identify and mask repetitive DNA sequences in genomic data to understand their impact on genomic analysis and interpretation.
-
-#### Instructions:
-1. **Installation:**
-   - **Objective:** Install RepeatMasker and understand the role of databases in repeat identification.
-   - **Installing RepeatMasker:**
-     - Document the process of installing RepeatMasker on your local or server machine. Include details about obtaining the software, resolving any dependencies, and any configuration required.
-   - **Choosing a Repeat Database:**
-     - Discuss the various databases available for use with RepeatMasker, such as Dfam and Repbase. Describe the differences between these databases in terms of content, focus (e.g., specific taxa or repeat types), and how they might impact the results of repeat masking.
-     - Explain why selecting an appropriate database is crucial for accurate repeat identification and masking.
-
-2. **Masking Repetitive Elements:**
-   - **Objective:** Execute RepeatMasker to identify and mask repeats in your genomes and understand how various parameters can affect the analysis.
-   - **Running RepeatMasker:**
-     - Document the command used to run RepeatMasker on your genomes, including any options or parameters. Explain the purpose of each parameter and how it might affect the analysis.
-   - **Parameters and Options:**
-     - Discuss any specific parameters that are particularly important for the type of genome you are analyzing (e.g., parameters that might differ for plant vs. animal genomes).
-
-3. **Analysis:**
-   - **Objective:** Interpret the results from RepeatMasker to gain insights into the repetitive content of your genomes and understand the implications for genomic research.
-   - **Summary of Results:**
-     - Provide a detailed summary of the results, including the proportion of the genome masked and the types of repeats identified.
-   - **Understanding Repetitive Elements:**
-     - Discuss the different types of repeats found (e.g., SINEs, LINEs, LTRs, DNA elements) and the significance of each type. Explain what these different categories represent and how they can affect genomic structure and function.
-   - **Importance of Masking:**
-     - Reflect on why masking repetitive sequences is important in genomic analyses. Consider aspects such as sequence alignment, variant calling, and structural annotation in your discussion.
-
-#### Deliverables:
-- A detailed report documenting the installation and execution of RepeatMasker, the choice of repeat database, the commands used, and a comprehensive analysis of the results.
-- Include screenshots or detailed descriptions of each step taken and the output received.
-- Provide a reflective discussion on the types of repetitive elements found and the importance of repeat masking in genomic research.
-
-**Note:** Ensure that your report is clearly structured, with each section and step thoroughly documented. Your analysis should reflect a deep understanding of the role of repetitive DNA in genomes and the practical implications of repeat masking in bioinformatics workflows.
-
----
-
-### Task 5: Running RepeatModeler for De Novo Repeat Annotation
+### Task 4: Running RepeatModeler for De Novo Repeat Annotation
 **Objective:** Utilize RepeatModeler to perform de novo repeat family identification and annotation on your genomes, providing insights into the unique repetitive elements within.
 
 #### Instructions:
@@ -241,7 +202,7 @@ Complete the following tasks and submit your work as a single Google Doc documen
 
 ---
 
-### Task 6: Running RepeatMasker with a Custom Database from RepeatModeler
+### Task 5: Running RepeatMasker with a Custom Database from RepeatModeler
 **Objective:** Utilize the custom repeat family library generated by RepeatModeler to identify and mask repetitive DNA sequences in your genome using RepeatMasker, providing a tailored analysis of your organism's repetitive landscape.
 
 #### Instructions:
@@ -260,17 +221,10 @@ Complete the following tasks and submit your work as a single Google Doc documen
      - Discuss any specific parameters or options important for using a custom database. Explain the implications of these choices and how they might affect the analysis.
 
 3. **Analysis and Interpretation:**
-   - **Objective:** Interpret the results from RepeatMasker with the custom library to understand the impact of personalized repeat identification on genomic analysis.
-   - **Comparing Results:**
-     - Compare the results of RepeatMasker using the standard database versus the custom RepeatModeler database. Note differences in the proportion of the genome masked and the types of repeats identified.
-   - **Custom Library Insights:**
-     - Discuss the benefits and potential drawbacks of using a custom repeat library. Reflect on how the custom library might provide insights into species-specific or unique repetitive elements not captured by standard databases.
-   - **Broader Implications:**
-     - Consider the broader implications of custom repeat identification for genomic research, such as improved annotation quality, understanding of genome evolution, or identification of novel genomic features.
+   - **Objective:** Interpret the results from RepeatMasker with the custom library to understand the impact of personalized repeat identification on genomic analysis..
 
 #### Deliverables:
 - A detailed report documenting the process of running RepeatMasker with a custom database, including the commands used and a comprehensive analysis of the results.
-- Include a discussion on the differences observed when using a custom library versus a standard one and the implications of these differences.
 - Reflect on the importance of customized repeat libraries in understanding and researching your specific organism's genome.
 
 **Note:** Ensure your report is clearly structured and insightful, demonstrating a deep understanding of the role of repetitive DNA and the advantages of personalized genomic analysis. Your analysis should showcase your ability to adapt bioinformatics tools to specific research needs and interpret the results in a broader genomic context.
@@ -281,6 +235,18 @@ Complete the following tasks and submit your work as a single Google Doc documen
 - Compile your answers, screenshots, and any additional notes into a single document.
 - Label each section clearly and provide thoughtful, detailed responses.
 - Check for clarity and accuracy before submitting.
+
+### Pitfalls to Avoid:
+- Always use separate environments for software installation and testing. Use conda create / activate to create and activate a new environment for each complex software installation. Deactivate the environment when you are done. Don't install software in your base environment except for very simple tools.
+- Contral remaining disk space on your server. Use the `df -h` command to check the remaining disk space on your server. If you are running out of disk space, delete unnecessary files or move them to a different location.
+- Don't use the home directory for storing your data.
+- Back up your data/code regularly. Use the `rsync` command to back up your data to a different location.
+- Don't use the root directory for chaotically storing your data. Use folders and subfolders to organize your data. For example, create a folder called `data` and then create subfolders for each task. Or create a folder for each task and then create subfolders for each dataset. And be consistent with your naming/structure conventions.
+- Good practice to check the size of your data before downloading it. Use the `du -sh` command to check the size of your data.
+- You can check file contents using the `head` and `tail` commands. For example, `head -n 10 file.txt` will print the first 10 lines of the file. `tail -n 10 file.txt` will print the last 10 lines of the file. Sometimes it will save a lot of time with some strange errors when it was wrong file or wrong format.
+
+### About LabJournal:
+- LabJournal is a tool for organizing your research. It is a simple, yet powerful tool for keeping track of your research. It is a great tool.
 
 **Good luck, and enjoy your journey through the world of genome bioinformatics!**
 
