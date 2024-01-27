@@ -54,7 +54,7 @@ Complete the following tasks and submit your work as a single Google Doc documen
          - **Header Format:** Examine and describe the format of the headers. Are they consistent across databases? Do they provide different types of information?
 
    - **Analysis:**
-     - Reflect on the similarities and differences observed between the genomes from different databases. Consider why discrepancies might exist, such as different assembly versions or annotation standards.
+     - Reflect on the similarities and differences observed between the genomes from different databases. Consider why discrepancies might exist, such as different assembly versions or naming conventions.
      - Discuss how these differences might impact genomic research and analysis.
 
 #### Deliverables:
