@@ -39,7 +39,7 @@ Complete the following tasks and submit your work as a single Google Doc documen
 
    - **Instructions:**
      - **Locating Genomes:**
-       - For each database (NCBI, Ensembl, UCSC), search for the genome of your selected prokaryotic and eukaryotic organisms.
+       - For each database (NCBI, Ensembl, UCSC), search for the genome of your selected Brassicaceae organism.
        - Record the search terms used and any filters applied during your search.
        - Capture screenshots showing each step of your navigation and the final genome selection page.
 
