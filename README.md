@@ -2,6 +2,7 @@
 
 ### Lecture 1: Introduction to Genome Bioinformatics
 - Overview of Genome Bioinformatics
+- An introduction to the scientific method
 - Key challenges and applications
 - Introduction to genomic data types and sources
 
