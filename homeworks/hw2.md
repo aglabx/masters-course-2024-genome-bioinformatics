@@ -88,7 +88,16 @@ Complete the tasks outlined below, creating scripts and documentation for each s
    - Write detailed instructions on how to build and run your Docker container.
 
 #### Deliverables:
-- The Dockerfile, any supporting scripts, and a README explaining how to use the container.
+- A Python script for Quast / BUSCO / RepeatModeler / RepeatMasker
+- A Bash script for Quast / BUSCO / RepeatModeler / RepeatMasker
+- A Snakemake program for Quast / BUSCO / RepeatModeler / RepeatMasker
+- A Docker file for Quast / BUSCO / RepeatModeler / RepeatMasker
+
+- Try to add downloading from DB too.
+
+#### Pitfalls to Avoid:
+
+- ?
 
 ---
 
