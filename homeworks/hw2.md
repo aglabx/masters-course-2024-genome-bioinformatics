@@ -73,7 +73,7 @@ Complete the tasks outlined below, creating scripts and documentation for each s
 
 ---
 
-### Task 4: Containerization with Docker
+### Task 4*: Containerization with Docker (optional)
 **Objective:** Package your analysis environment using Docker to ensure consistency and reproducibility.
 
 #### Instructions:
