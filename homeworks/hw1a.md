@@ -244,6 +244,7 @@ Complete the following tasks and submit your work as a single Google Doc documen
 - Don't use the root directory for chaotically storing your data. Use folders and subfolders to organize your data. For example, create a folder called `data` and then create subfolders for each task. Or create a folder for each task and then create subfolders for each dataset. And be consistent with your naming/structure conventions.
 - Good practice to check the size of your data before downloading it. Use the `du -sh` command to check the size of your data.
 - You can check file contents using the `head` and `tail` commands. For example, `head -n 10 file.txt` will print the first 10 lines of the file. `tail -n 10 file.txt` will print the last 10 lines of the file. Sometimes it will save a lot of time with some strange errors when it was wrong file or wrong format.
+- Remember about --threads and --pa flags, don't run heavy tasks with only one thread.
 
 ### About LabJournal:
 - LabJournal is a tool for organizing your research. It is a simple, yet powerful tool for keeping track of your research. It is a great tool.
