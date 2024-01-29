@@ -25,6 +25,7 @@
 - Understanding repetitive DNA elements
 - Tools for repeat identification and masking (e.g., RepeatMasker, RepeatModeler)
 - Implications of repetitive DNA in genomic analysis
+- WindowMasker, TRF, dust, and other tools
 
 ### Lecture 6: De Novo Gene Prediction and Annotation
 - Principles of gene prediction and annotation
