@@ -245,6 +245,7 @@ Complete the following tasks and submit your work as a single Google Doc documen
 - Good practice to check the size of your data before downloading it. Use the `du -sh` command to check the size of your data.
 - You can check file contents using the `head` and `tail` commands. For example, `head -n 10 file.txt` will print the first 10 lines of the file. `tail -n 10 file.txt` will print the last 10 lines of the file. Sometimes it will save a lot of time with some strange errors when it was wrong file or wrong format.
 - Remember about --threads and --pa flags, don't run heavy tasks with only one thread.
+- Please use Screen / tmux and similar for running processes in the background, don't use nohup.
 
 ### About LabJournal:
 - LabJournal is a tool for organizing your research. It is a simple, yet powerful tool for keeping track of your research. It is a great tool.
