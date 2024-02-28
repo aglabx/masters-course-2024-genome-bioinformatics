@@ -77,7 +77,7 @@ Homework 5. Functional annotation.
 - Quality Assessment: Strategies for assessing the quality of called variants, including variant quality score recalibration, filtering criteria, and validation techniques.
 - Challenges and Solutions: Discussing common challenges in variant calling, such as calling variants in low-complexity regions, dealing with highly polymorphic regions, and differentiating between true variants and sequencing artifacts.
 
-## Lecture 14: Applications of Called Variants
+### Lecture 14: Applications of Called Variants
 - Genomic Association Studies: How called variants are used in GWAS to identify genetic variants associated with diseases or traits.
 - Pharmacogenomics and Personalized Medicine: Understanding the role of variants in drug response variability and their implications in developing personalized treatment plans.
 - Functional Genomics: Methods to predict the functional impact of genetic variants on gene expression, protein function, and phenotype using bioinformatics tools (e.g., SIFT, PolyPhen-2).
