@@ -16,6 +16,8 @@
 - Data quality assessment and preprocessing
 - Introduction to Linux and Bash scripting for bioinformatics
 
+### HOMEWORK 1. [QUAST and BUSCO](https://github.com/aglabx/masters-course-2024-genome-bioinformatics/blob/main/homeworks/hw1_2024.md)
+
 ### Lecture 4: Genome Assembly and Assessment
 - Principles of genome assembly
 - Tools for genome assembly
