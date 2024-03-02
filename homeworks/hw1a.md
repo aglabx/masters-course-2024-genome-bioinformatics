@@ -39,7 +39,7 @@ Complete the following tasks and submit your work as a single Google Doc documen
 
    - **Instructions:**
      - **Locating Genomes:**
-       - For each database (NCBI, Ensembl, UCSC), search for the genome of your selected prokaryotic and eukaryotic organisms.
+       - For each database (NCBI, Ensembl, UCSC), search for the genome of your selected Brassicaceae organism.
        - Record the search terms used and any filters applied during your search.
        - Capture screenshots showing each step of your navigation and the final genome selection page.
 
@@ -54,7 +54,7 @@ Complete the following tasks and submit your work as a single Google Doc documen
          - **Header Format:** Examine and describe the format of the headers. Are they consistent across databases? Do they provide different types of information?
 
    - **Analysis:**
-     - Reflect on the similarities and differences observed between the genomes from different databases. Consider why discrepancies might exist, such as different assembly versions or annotation standards.
+     - Reflect on the similarities and differences observed between the genomes from different databases. Consider why discrepancies might exist, such as different assembly versions or naming conventions.
      - Discuss how these differences might impact genomic research and analysis.
 
 #### Deliverables:
@@ -226,6 +226,9 @@ Complete the following tasks and submit your work as a single Google Doc documen
 - Don't use the root directory for chaotically storing your data. Use folders and subfolders to organize your data. For example, create a folder called `data` and then create subfolders for each task. Or create a folder for each task and then create subfolders for each dataset. And be consistent with your naming/structure conventions.
 - Good practice to check the size of your data before downloading it. Use the `du -sh` command to check the size of your data.
 - You can check file contents using the `head` and `tail` commands. For example, `head -n 10 file.txt` will print the first 10 lines of the file. `tail -n 10 file.txt` will print the last 10 lines of the file. Sometimes it will save a lot of time with some strange errors when it was wrong file or wrong format.
+- Remember about --threads and --pa flags, don't run heavy tasks with only one thread.
+- Please use Screen / tmux and similar for running processes in the background, don't use nohup.
+- Please download genome as one file, don't use individual 
 
 ### About LabJournal:
 - LabJournal is a tool for organizing your research. It is a simple, yet powerful tool for keeping track of your research. It is a great tool.
