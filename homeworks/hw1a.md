@@ -70,16 +70,10 @@ Complete the following tasks and submit your work as a single Google Doc documen
 
 #### Instructions:
 1. **Installation:**
-   - **Objective:** Install QUAST using different methods to familiarize yourself with software installation and environment management in bioinformatics.
+   - **Objective:** Install QUAST using the simplest method to familiarize yourself with software installation and environment management in bioinformatics.
    - **Conda Installation:**
      - Use the Conda package manager to install QUAST on your local or server machine. Conda can simplify software installation and manage dependencies effectively.
      - Provide a detailed summary of the installation process, including any conda commands used.
-   - **Source Installation:**
-     - Install QUAST directly from its source code. This method can offer more control over the installation process and is a common approach when specific versions or customizations are needed.
-     - Document the steps taken to download the source code, compile the program, and any dependencies you needed to install manually.
-   - **FastQUAST Installation:**
-     - Install fastQUAST via bioconda, a faster version of QUAST designed for quick assessments.
-     - Note any differences in the installation process compared to standard QUAST.
 
 2. **Running QUAST:**
    - **Objective:** Execute QUAST to analyze the quality of the downloaded genomes and understand the implications of various parameters and options.
@@ -114,19 +108,11 @@ Complete the following tasks and submit your work as a single Google Doc documen
 
 **Installation:**
 
-**Objective:** Install BUSCO using different methods to familiarize yourself with software installation and environment management in bioinformatics.
+**Objective:** Install BUSCO using conda to familiarize yourself with software installation and environment management in bioinformatics. Don't forget to create and activate the separate environment before installing BUSCO.
 
 - **Conda Installation:**
   - Use the Conda package manager to install BUSCO on your local or server machine. Conda simplifies software installation and manages dependencies effectively.
   - Provide a detailed summary of the installation process, including any conda commands used.
-
-- **Docker Installation:**
-  - Install BUSCO using Docker. Docker can encapsulate the software and its dependencies in a container, ensuring consistency across different environments.
-  - Document the steps taken to pull the BUSCO image, set up the container, and any additional configuration needed.
-
-- **Manual Installation:**
-  - Install BUSCO directly from its source code. This method allows more control over the installation process and is common when specific versions or customizations are needed.
-  - Document the steps to download the source code, compile the program, and any dependencies you needed to install manually.
 
 **Running BUSCO:**
 
@@ -139,7 +125,7 @@ Complete the following tasks and submit your work as a single Google Doc documen
   - Discuss the importance of selecting the appropriate lineage dataset for your organism. Explain how this choice impacts the analysis.
 
 - **Advanced Options:**
-  - Mention any advanced options or parameters that are particularly useful for your dataset. This might include parallel running options for large datasets or specific parameters for different types of analysis (genomes, proteins, metagenomes).
+  - Mention any advanced options or parameters that are particularly useful for your dataset. This might include parallel running options for large datasets or specific parameters for different types of analysis (genomes, proteins, transcriptome).
 
 **Interpreting Results:**
 
@@ -169,11 +155,7 @@ Complete the following tasks and submit your work as a single Google Doc documen
 
 #### Instructions:
 1. **Installation:**
-   - **Objective:** Install RepeatModeler and understand its dependencies and relationship with other bioinformatics tools.
-   - **Installing RepeatModeler:**
-     - Document the process of installing RepeatModeler, including resolving any dependencies. Note any software it interacts with, such as RepeatMasker and the sequence alignment tools it requires (e.g., BLAST, RMBlast).
-   - **Dependencies and Configuration:**
-     - List and describe the purpose of each dependency. Explain any configuration steps needed to ensure RepeatModeler can communicate with these tools.
+   - **Objective:** Install RepeatModeler and understand its dependencies and relationship with other bioinformatics tools with conda package manager.
 
 2. **Running RepeatModeler:**
    - **Objective:** Execute RepeatModeler to build a de novo library of repeat families from your genomic data.

@@ -57,3 +57,25 @@ To learn how to install relatively complex software packages without conda and t
 **Note:** Ensure that your report is clearly structured, with each section and step thoroughly documented. Your analysis should reflect a deep understanding of the role of repetitive DNA in genomes and the practical implications of repeat masking in bioinformatics workflows.
 
 ---
+
+- **Installing RepeatModeler:**
+     - Document the process of installing RepeatModeler, including resolving any dependencies. Note any software it interacts with, such as RepeatMasker and the sequence alignment tools it requires (e.g., BLAST, RMBlast).
+   - **Dependencies and Configuration:**
+     - List and describe the purpose of each dependency. Explain any configuration steps needed to ensure RepeatModeler can communicate with these tools.
+
+     
+
+- **Source Installation:**
+     - Install QUAST directly from its source code. This method can offer more control over the installation process and is a common approach when specific versions or customizations are needed.
+     - Document the steps taken to download the source code, compile the program, and any dependencies you needed to install manually.
+   - **FastQUAST Installation:**
+     - Install fastQUAST via bioconda, a faster version of QUAST designed for quick assessments.
+     - Note any differences in the installation process compared to standard QUAST.
+
+- **Docker Installation:**
+  - Install BUSCO using Docker. Docker can encapsulate the software and its dependencies in a container, ensuring consistency across different environments.
+  - Document the steps taken to pull the BUSCO image, set up the container, and any additional configuration needed.
+
+- **Manual Installation:**
+  - Install BUSCO directly from its source code. This method allows more control over the installation process and is common when specific versions or customizations are needed.
+  - Document the steps to download the source code, compile the program, and any dependencies you needed to install manually.
